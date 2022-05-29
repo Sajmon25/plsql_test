@@ -12,4 +12,15 @@ create or replace package body dummy
         /*comment*/
         null;
     end test2;    
+
+    procedure test3
+    is
+        v_test number;
+    begin
+      
+        --test sg
+        select 1
+        from dual;
+
+    end;
 end dummy;
