@@ -6,5 +6,10 @@ create or replace package body dummy
         null;
     end test;
 
-    
+    procedure test2
+    is
+    begin
+        /*comment*/
+        null;
+    end test2;    
 end dummy;
