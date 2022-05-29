@@ -20,6 +20,7 @@ create or replace package body dummy
       
         --test sg
         select 1
+        into v_test
         from dual;
 
     end;
