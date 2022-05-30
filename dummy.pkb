@@ -19,9 +19,11 @@ create or replace package body dummy
     begin
       
         --test sg
-        select 1 * 1000 / 10
+        select 1 * 1000 / 100
         into v_test
         from dual;
 
     end;
+
+    
 end dummy;
